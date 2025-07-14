@@ -442,3 +442,80 @@ a {
     width: 468px;
     margin: 18px 0 38px;
 }
+/* Member */
+.member {
+    margin-top: 170px;
+}
+.member__header {
+    text-align: center;
+}
+
+.member__heading {
+    margin-bottom: 38px;
+}
+
+.member .btn {
+    margin-bottom: 70px;
+}
+
+.member__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.member-item__img-bg {
+    width: 270px;
+    height: 318px;
+    background-color: #eaf6ff;
+    display: flex;
+    align-items: end;
+    border-radius: 6px;
+}
+
+.member-item__name {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.6rem;
+    letter-spacing: 0%;
+    color: #10375c;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.member-item__desc {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 1.4rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #575f66;
+    text-align: center;
+}
+
+.member__control {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 38px;
+}
+
+.member__control-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    background-color: #fff;
+    transition: 0.25s;
+}
+
+.member__control-btn:hover {
+    color: #fff;
+    background-color: #2e80ce;
+    border-color: #2e80ce;
+    cursor: pointer;
+}
+
+.member__control-btn:last-child {
+    rotate: 180deg;
+}
