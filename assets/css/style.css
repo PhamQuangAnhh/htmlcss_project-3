@@ -39,6 +39,23 @@ a {
     opacity: 0.9;
 }
 
+.section-heading {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 5rem;
+    letter-spacing: -2%;
+    color: #10375c;
+}
+
+.section-desc {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 1.8rem;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #575f66;
+}
+
 /* Header */
 .header {
     background-color: #10375c;
@@ -225,4 +242,93 @@ a {
     line-height: 30px;
     letter-spacing: 0%;
     color: #fff;
+}
+
+/* Service */
+.service {
+    margin-top: 170px;
+}
+
+.service__heading {
+    text-align: center;
+}
+
+.service__desc {
+    text-align: center;
+    width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.service-row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__img {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+    object-position: 50% 0;
+    border-radius: 12px;
+}
+
+.service__list {
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+/* Service item */
+.service-item {
+    display: flex;
+    width: 470px;
+    padding: 22px;
+    border-radius: 10px;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.service-item:hover {
+    position: relative;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover .service-item__icon {
+    color: #fff;
+    background-color: #2e80ce;
+}
+
+.service-item__heading {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.8rem;
+    letter-spacing: 0%;
+    color: #10375c;
+}
+
+.service-item__desc {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 1.6rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #575f66;
+    width: 351px;
+    margin-top: 8px;
+}
+
+.service-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #10375c;
+    background: #eff6fd;
+    margin-right: 19px;
+    transition: 0.25s;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
 }
