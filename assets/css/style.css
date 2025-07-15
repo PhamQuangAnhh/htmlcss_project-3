@@ -707,3 +707,140 @@ a {
     margin-top: 18px;
     margin-bottom: 38px;
 }
+/* Footer  */
+.footer {
+    background-color: #10375c;
+    margin-top: 170px;
+    padding-bottom: 42px;
+}
+.footer__row {
+    padding: 100px 0 28px;
+    display: flex;
+    justify-content: space-between;
+    gap: 78px;
+}
+
+.footer__slogen {
+    margin-top: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.6rem;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #a9b3bb;
+    max-width: 336px;
+}
+
+.footer__title {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.6rem;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.4rem;
+    letter-spacing: 0%;
+    color: #a9b3bb;
+    margin-top: 14px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__list--bonus {
+    margin-top: 28px;
+}
+
+.footer__desc {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.4rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #a9b3bb;
+    max-width: 273px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+.footer__social--btn {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #2e80ce;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+.footer__social--btn:hover {
+    color: #fff;
+    background-color: #2e80ce;
+}
+
+.footer-form {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.footer-form__input {
+    outline: none;
+    width: 212px;
+    height: 46px;
+    padding: 0 10px;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    color: #fff;
+    background: transparent;
+}
+
+.footer-form__input::placeholder {
+    font-size: 1.4rem;
+    color: #9ca8b1;
+}
+
+.footer-form__submit {
+    height: 46px;
+    line-height: 40px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    border-color: #2e80ce;
+    min-width: 108px;
+}
+
+.footer__line {
+    width: 1170px;
+    height: 1px;
+    background-color: #406181;
+}
+
+.footer__copyright {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.4rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #aab3ba;
+    margin-top: 28px;
+}
