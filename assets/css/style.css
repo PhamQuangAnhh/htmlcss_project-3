@@ -471,6 +471,7 @@ a {
     display: flex;
     align-items: end;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .member-item__name {
@@ -491,6 +492,14 @@ a {
     letter-spacing: 0%;
     color: #575f66;
     text-align: center;
+}
+
+.member-item:hover .member-item__avatar {
+    transform: scale(1.1);
+}
+
+.member-item__avatar {
+    transition: 0.25s;
 }
 
 .member__control {
