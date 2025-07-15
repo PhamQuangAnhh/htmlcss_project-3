@@ -676,3 +676,34 @@ a {
 .blog__article--info {
     padding: 18px 22px;
 }
+/* Appointment */
+.appointment {
+    margin-top: 170px;
+    background-color: #f6fbff;
+    text-align: center;
+}
+
+.appointment .btn {
+    margin-bottom: 100px;
+}
+
+.appointment__heading {
+    display: inline-block;
+    margin: 100px 0 18px;
+}
+
+.appointment__line {
+    width: 136px;
+    height: 2px;
+    background-color: #2e80ce;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appointment__desc {
+    max-width: 617px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 38px;
+}
